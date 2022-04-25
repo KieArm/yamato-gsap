@@ -4,26 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-    <title>Document</title>
+    <title>Space Battleship Yamato | GSAP</title>
   </head>
   <body>
-    <section>
-      <canvas></canvas>
-      <div class="text">One Text</div>
+    <div id="preloader">
+      <div id="loader">
+        <div id="box"></div>
+        <div id="hill"></div>
+      </div>
+    </div>
+    <section id="v1">
+      <canvas class="c1"></canvas>
+      <div class="text">
+        <div class="w-50">
+          <h1>A battleship resurrected</h1>
+          <p>
+            Space Battleship Yamato emerges from its slumber to defend Earth from the Gamilas empire and begin the long
+            journey to Iscandar, where a device has been promised to save Earth from the deadly asteroid bombs.
+          </p>
+          <p>
+            All hopes rest with the Yamato and its crew to recover the Cosmo Reverse System before the Earth is lost
+            forever.
+          </p>
+        </div>
+      </div>
     </section>
-    <section>Other content</section>
-    <section>
-      <canvas></canvas>
-      <div class="text">Two Text</div>
+    <section id="one">
+      <div class="container">
+        <div class="card mb-3">
+          <h1>title</h1>
+          <p>text</p>
+        </div>
+        <div class="card mb-3">
+          <h1>title</h1>
+          <p>text</p>
+        </div>
+        <div class="card mb-3">
+          <h1>title</h1>
+          <p>text</p>
+        </div>
+        <div class="card mb-3">
+          <h1>title</h1>
+          <p>text</p>
+        </div>
+      </div>
     </section>
-    <section>Other content</section>
-    <section>
-      <canvas></canvas>
-      <div class="text">Three Text</div>
+    <section id="v2">
+      <canvas class="c2"></canvas>
+      <div class="text">Two Video Text</div>
     </section>
+    <section id="two">2 -> 3 content</section>
+    <section id="v3">
+      <canvas class="c3"></canvas>
+      <div class="text">Three Video Text</div>
+    </section>
+    <section id="three">3 -> end content</section>
   </body>
-  <script src="gsap-test.js"></script>
+  <script src="sby-gsap.js"></script>
 </html>
