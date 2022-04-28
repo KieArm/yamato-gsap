@@ -43,7 +43,7 @@ function initCanvas(section, canvas) {
   // Setup PNG sequence total frames
   let frameCount = 70;
   // Setup PNG sequence current frame
-  const currentFrame = (index) => `./assets/${(index + 1).toString().padStart(4, "0")}.png`;
+  const currentFrame = (index) => `./assets/${(index + 1).toString().padStart(4, "0")}.webp`;
   // Setup empty array to push images
   let images = [];
   // Set start frame for image sequence
@@ -104,7 +104,7 @@ function initCanvas2(section, canvas) {
   canvas.height = 540;
 
   let frameCount = 212;
-  const currentFrame = (index) => `./assets/${(index + 1).toString().padStart(4, "0")}.png`;
+  const currentFrame = (index) => `./assets/${(index + 1).toString().padStart(4, "0")}.webp`;
 
   let images = [];
   let yamatoSequence = {
@@ -159,7 +159,7 @@ function initCanvas3(section, canvas) {
   canvas.height = 540;
 
   let frameCount = 432;
-  const currentFrame = (index) => `./assets/${(index + 1).toString().padStart(4, "0")}.png`;
+  const currentFrame = (index) => `./assets/${(index + 1).toString().padStart(4, "0")}.webp`;
 
   let images = [];
   let yamatoSequence = {
