@@ -41,7 +41,7 @@
         <div id="box"></div>
         <div id="hill"></div>
       </div>
-      <p id="loading">Loading, please wait ...</p>
+      <p id="loading">Loading, please wait</p>
     </div>
     <nav class="navbar navbar-expand-sm h-auto p-1 bg-dark">
       <div class="container-fluid">
@@ -64,20 +64,14 @@
               <a class="nav-link text-info" href="#">Shop</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <form onsubmit="event.preventDefault()" class="d-flex" role="search">
             <input
               class="form-control form-control-sm me-2 border-light"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button
-              class="btn btn-sm btn-outline-light"
-              type="submit"
-              onsubmit="{e.prevent.default}"
-            >
-              Search
-            </button>
+            <button class="btn btn-sm btn-outline-light">Search</button>
           </form>
         </div>
       </div>
@@ -85,7 +79,7 @@
     <section id="v1">
       <canvas class="c1"></canvas>
       <div class="text">
-        <div class="w-50">
+        <div class="w-80">
           <h1>A Battleship Resurrected</h1>
           <p>
             Space Battleship Yamato emerges from its slumber to defend Earth from the Gamilas empire
@@ -131,7 +125,7 @@
         </div>
         <div class="row pt-5 gap-5">
           <div class="col mb-3">
-            <div class="card bg-dark" style="width: 18rem">
+            <div class="card bg-dark mx-auto" style="width: 18rem">
               <img
                 src="./img/Yamato_Wings_Over_Garmillas.webp"
                 class="card-img-top size-1"
@@ -148,7 +142,7 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card bg-dark" style="width: 18rem">
+            <div class="card bg-dark mx-auto" style="width: 18rem">
               <img
                 src="./img/UNCN_First_Fleet_Pluto_Starboard.webp"
                 class="card-img-top size-1"
@@ -165,7 +159,7 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card bg-dark" style="width: 18rem">
+            <div class="card bg-dark mx-auto" style="width: 18rem">
               <img
                 src="./img/Yamato_Nirvales_Shambleau.webp"
                 class="card-img-top size-1"
@@ -184,7 +178,7 @@
         </div>
         <div class="row my-5 gap-5">
           <div class="col mb-3">
-            <div class="card bg-dark" style="width: 18rem">
+            <div class="card bg-dark mx-auto" style="width: 18rem">
               <img src="./img/Yurisha_iscandar_50216.webp" class="card-img-top size-2" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -197,7 +191,7 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card bg-dark" style="width: 18rem">
+            <div class="card bg-dark mx-auto" style="width: 18rem">
               <img src="./img/Desler_33026.webp" class="card-img-top size-2" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -210,7 +204,7 @@
             </div>
           </div>
           <div class="col mb-3">
-            <div class="card bg-dark" style="width: 18rem">
+            <div class="card bg-dark mx-auto" style="width: 18rem">
               <img src="./img/Juzo_okuta_33018.webp" class="card-img-top size-2" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -369,7 +363,7 @@
             alt="Space Battleship Yamato Logo"
           />
         </div>
-        <div class="col mt-2 fs-5 w-50 mx-auto">
+        <div class="about col mt-2 fs-5 mx-auto">
           <p>
             This is a proof of design demonstration with placeholder text and images from the
             popular anime series Space Battleship Yamato. This concept was inspired by the famous
@@ -382,7 +376,7 @@
           </p>
           <p>Space Battleship Yamato © 2022 Yoshinobu Nishizaki.</p>
         </div>
-        <div class="row w-50 mt-3 fs-6 mx-auto">
+        <div class="about row mt-3 fs-6 mx-auto">
           <ul>
             <li class="list-group-item m-0 p-0">
               <p class="col">
@@ -421,9 +415,9 @@
               </svg>
             </a>
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-              <img src="./img/gsap.png" style="width: 40px" alt="" />
+              <img src="./img/gsap.png" style="width: 30px" alt="" />
             </a>
-            <span class="mb-3 mb-md-0 text-muted">© 2022 Company Footer</span>
+            <span class="mb-3 mb-md-0 text-muted">© 2022 Footer</span>
           </div>
 
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

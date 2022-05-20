@@ -49,8 +49,14 @@ canvas {
 .text {
   position: absolute;
   top: 50%;
-  left: 100px;
+  left: 50px;
   opacity: 0;
+}
+@media screen and (max-width: 500px) {
+  .text {
+    top: 50%;
+    left: 10px;
+  }
 }
 
 .text h1 {
@@ -62,6 +68,25 @@ canvas {
   font-size: 1.25rem;
   color: #fff;
   margin-top: 10px;
+}
+.about {
+  width: 60%;
+}
+@media screen and (max-width: 500px) {
+  .about {
+    width: 90%;
+  }
+}
+
+.about p {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.about h1 {
+  font-size: 2rem;
+  color: #fff;
 }
 
 #one {
@@ -95,7 +120,7 @@ canvas {
   left: 50%;
   margin-top: 5em;
   margin-left: -4em;
-  width: 10em;
+  width: 20em;
   height: 5em;
   background-color: #000;
   color: #fff;
